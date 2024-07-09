@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>시계</title>
+<style>
+        div {
+        text-align: center;
+        width: 500px;
+        margin: 0 auto;
+        font: bold 25px/45px '나눔고딕', sans-serif;
+        color: #666;
+    }
+
+    p {
+        display: inline-block;
+    }
+ </style>
+</head>
+<body>
+    <div>
+        <p class="time">현재시간</p>
+        <p class="min">현재분</p>
+        <p class="sec">현재초</p>
+    </div>
+    <script>
+        var htText = document.querySelector('time');
+        var minText = document.querySelector('min');
+        var secText = document.querySelector('sec');
+    </script>
+
+</body>
+</html>
